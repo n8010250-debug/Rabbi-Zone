@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111111"><meta name="description" content="Rabix Style — Premium drop shoulder T-shirts in Bangladesh. Cash on Delivery available.">
+<title>Rabix Style — Premium Streetwear</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">বাংলাদেশজুড়ে ক্যাশ অন ডেলিভারি · ফরিদপুরে ডেলিভারি চার্জ ৳৮০</div>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Rabix Style home"><span class="brand-mark">R<span>.</span></span><span>RABIX <b>STYLE</b></span></a>
+  <nav class="desktop-nav"><a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#shipping">Delivery</a></nav>
+  <div class="header-actions"><button class="icon-btn" id="searchToggle" aria-label="Search">⌕</button><button class="cart-btn" id="openCart">Bag <span id="cartCount">0</span></button><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button></div>
+</header>
+<div class="mobile-nav" id="mobileNav"><a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#shipping">Delivery</a></div>
+<main>
+<section class="hero">
+  <div class="hero-copy"><p class="eyebrow"><span></span> NEW SEASON / 2026</p><h1>Wear your<br><em>own energy.</em></h1><p class="hero-description">Everyday essentials. Elevated fits. Meet your next favourite drop shoulder tee.</p><div class="hero-buttons"><a class="btn btn-red" href="#shop">Shop the collection <span>↗</span></a><a class="text-link" href="#story">Discover Rabix <span>→</span></a></div><div class="hero-note"><span class="note-dot"></span> Designed for everyday movement</div></div>
+  <div class="hero-art"><div class="art-circle"></div><div class="art-label">RABIX<br><b>ESSENTIALS</b></div><div class="shirt-visual"><div class="shirt-neck"></div><span>R.</span></div><div class="art-index">RS / 001</div><div class="art-sticker">BUILT<br>DIFFERENT<span>✳</span></div></div>
+</section>
+<section class="benefit-strip"><div><span>01</span> Premium feel</div><div><span>02</span> Relaxed fit</div><div><span>03</span> Made for daily wear</div><div><span>04</span> Cash on delivery</div></section>
+<section class="shop-section section-wrap" id="shop"><div class="section-heading"><div><p class="eyebrow">THE RABIX EDIT</p><h2>Find your <em>fit.</em></h2></div><p>Clean essentials. No extra noise.</p></div>
+  <div class="shop-tools"><div class="category-tabs" id="categoryTabs"><button class="active" data-category="All">All products</button><button data-category="T-Shirts">T-Shirts</button><button data-category="New">New arrivals</button></div><label class="search-box" id="searchBox"><span>⌕</span><input id="searchInput" placeholder="Search products..." aria-label="Search products"></label></div>
+  <div id="productGrid" class="product-grid"><div class="loading-card">Loading collection...</div></div>
+</section>
+<section class="editorial" id="story"><div class="editorial-image"><div class="editorial-sun"></div><div class="editorial-shirt"></div><span class="editorial-tag">R / DAILY UNIFORM</span></div><div class="editorial-copy"><p class="eyebrow">LESS, BUT BETTER</p><h2>Made to move.<br><em>Made to last.</em></h2><p>Rabix Style is about confident simplicity — easy silhouettes, versatile colours, and pieces that fit into your everyday life.</p><a class="text-link" href="#shop">Explore essentials <span>→</span></a></div></section>
+<section class="delivery-section section-wrap" id="shipping"><div><p class="eyebrow">STRAIGHT TO YOUR DOOR</p><h2>Easy order.<br><em>Easy delivery.</em></h2></div><div class="delivery-cards"><div><span class="delivery-icon">৳</span><b>Cash on Delivery</b><p>Pay when your order arrives.</p></div><div><span class="delivery-icon">↗</span><b>Faridpur District</b><p>Delivery charge ৳80.</p></div><div><span class="delivery-icon">＋</span><b>Rest of Bangladesh</b><p>Delivery charge ৳130.</p></div></div></section>
+<section class="newsletter"><p class="eyebrow">STAY IN THE LOOP</p><h2>Good fits. <em>Good energy.</em></h2><p>Follow Rabix Style for new drops and everyday inspiration.</p><a class="btn btn-light" id="socialLink" href="#" target="_blank" rel="noopener">Follow us on Facebook ↗</a></section>
+</main>
+<footer class="site-footer"><a class="brand brand-light" href="#"><span class="brand-mark">R<span>.</span></span><span>RABIX <b>STYLE</b></span></a><p>Everyday essentials, elevated.</p><div class="footer-links"><a href="#shop">Shop</a><a href="#shipping">Delivery & Returns</a><a href="admin.html">Admin</a></div><small>© <span id="year"></span> Rabix Style. All rights reserved.</small></footer>
+<div class="overlay" id="overlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart"><div class="drawer-head"><h3>Your bag <span id="drawerCount">(0)</span></h3><button class="close-btn" id="closeCart" aria-label="Close">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><b id="cartSubtotal">৳0</b></div><p class="cart-hint">Delivery charge is calculated at checkout.</p><button class="btn btn-red full" id="checkoutBtn">Continue to checkout ↗</button></div></aside>
+<div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><div class="modal-card"><div class="drawer-head"><div><p class="eyebrow">ONE LAST STEP</p><h3 id="checkoutTitle">Checkout</h3></div><button class="close-btn" id="closeCheckout">×</button></div><form id="checkoutForm"><div class="form-grid"><label>Full name *<input name="name" required autocomplete="name" placeholder="Your name"></label><label>Phone number *<input name="phone" required inputmode="tel" pattern="01[3-9][0-9]{8}" placeholder="01XXXXXXXXX"></label><label class="span-two">Full delivery address *<textarea name="address" required rows="2" placeholder="House, road, area"></textarea></label><label>District *<input name="district" required placeholder="e.g. Faridpur"></label><label>Area / Upazila<input name="area" placeholder="Area / upazila"></label></div><div class="payment-choice"><span>Payment method</span><b>Cash on Delivery (COD)</b></div><div class="checkout-summary" id="checkoutSummary"></div><button class="btn btn-red full" type="submit">Place order via WhatsApp ↗</button><p class="fine-print">By placing this order, you agree to be contacted to confirm delivery details.</p><div id="checkoutMessage" role="status"></div></form></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="store.js"></script>
+</body></html>
